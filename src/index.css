@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f1f1f1;
+}
+.header {
+  background-color: #0b2239;
+  padding: 1.2rem 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.main {
+  background-color: #ffffff;
+  width: 70%;
+  margin: 0 auto;
+  margin: 40px auto;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.MovieCard {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  height: auto;
+}
+.left img {
+  border-radius: 10px 0px 0px 10px;
+}
+.right {
+  padding: 20px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.title {
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+.plot {
+  color: gray;
+  margin: 0.8rem 0;
+}
+.bottom-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.fav-btn,
+.cart-btn {
+  background-color: #ec54cb;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 3px;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+}
+.cart-btn {
+  background-color: rgb(21, 21, 98);
+}
+.un-fav-btn,
+.remove-btn {
+  background-color: red;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 3px;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+}
+.right-footer {
+  text-align: right;
+}
+.image-div .cart-btn {
+  background-color: rgb(193, 31, 31);
+  margin-left: 10px;
+}
+.cart-div{
+  display: flex;
+}
+.cart-text p{    width: 20px;
+    height: 20px;
+    background-color: blanchedalmond;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 0px;}
